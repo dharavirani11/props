@@ -1,0 +1,114 @@
+ul {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+
+.a1{
+  padding:20px;
+  text-decoration: none ;
+  color: #1C3664;
+  cursor: pointer;
+
+}
+nav ul{
+  display:flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+.App{
+  background-color: bisque;
+  padding-bottom: 100px;
+  padding-top: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.slider{
+  padding-top: 20px;
+}
+.logo img{
+  width: 100%;
+  margin: 2px;
+
+}
+
+.c1{
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card_title h3{ 
+text-transform: capitalize;
+padding: 15px;
+font-size: 24px;
+border-bottom: 1px solid rgb(209, 204, 204);
+
+}
+.card_title{
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+  border-bottom: 1px solid rgb(209, 204, 204);
+}
+.card_title img{
+  border-radius: 5px;
+  width: 100%;
+}
+.card_title:hover{
+  box-shadow: 0 0 5px gray;
+}
+.btn button{
+padding: 8px 8px;
+width: auto;
+border: none;
+background-color: #003366;
+color: white;
+border-radius: 5px;
+font-size: 14px;
+float: right;
+}
+.btn button:hover{
+background-color:blue;
+}
+.icon1{
+  color: #003366;
+  height: 80px;
+  width: 80px;
+  background-color: #B3D369;
+  line-height: 80px;
+  border-radius: 50px;
+  transition: .2s;
+  text-align: center;
+  margin: 20px;
+         
+}
+.icon:hover .icon1{
+  outline: 4px solid black;
+
+}
+.icon{
+  background-color: aliceblue;
+  margin-top: 50px ;
+padding: 10px;
+border-radius: 5px;
+text-align: center; 
+height:250px;
+}
+.i1{
+  font-weight: 700;
+  font-size: 20px;
+}
+.i2{
+  font-size: 14px;
+}
+.icon:hover{
+  box-shadow: 0 0 5px grey;
+}
